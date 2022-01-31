@@ -1,0 +1,1 @@
+Import of ScreenA (2 plates) takes 11 minutes.
