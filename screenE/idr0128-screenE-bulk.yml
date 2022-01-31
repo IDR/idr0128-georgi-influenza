@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0128-georgi-influenza/screenE"
+include: "../bulk.yml"
+path: "idr0128-screenE-plates.tsv"
