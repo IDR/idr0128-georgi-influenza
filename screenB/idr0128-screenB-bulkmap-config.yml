@@ -1,0 +1,107 @@
+---
+name: idr0128-georgi-influenza/screenB
+version: 1
+
+defaults:
+  include: false
+  type: string
+  includeclient: true
+  visible: true
+  omitempty: true
+
+columns:
+
+  - name: Experimental Condition [DMSO solvent]
+    clientname: DMSO solvent
+    include: true
+
+  - name: Control Type
+    clientname: Control Type
+    include: true
+
+  - name: Comment [Control Type Comments]
+    clientname: Control Type Comments
+    include: true
+
+  - name: Quality Control
+    clientname: Quality Control
+    include: true
+
+  - name: Comment [Quality Control Comments]
+    clientname: Quality Control Comments
+    include: true
+
+  - name: Channels
+    clientname: Channels
+    include: true
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism 1]
+          clientname: Organism
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism 2]
+          clientname: Organism
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound
+      columns:
+        - name: Compound Name
+          clientname: Compound Name
+          include: true
+        - name: Compound PubChem URL
+          clientname: Compound Name URL
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
+        - name: Compound PubChem CID
+          clientname: PubChem CID
+          include: true
+        - name: Compound PubChem URL
+          clientname: PubChem URL
+          include: true
+        - name: Compound Concentration (microMolar)
+          clientname: Concentration (microMolar)
+          include: true
+        - name: CAS
+          clientname: CAS
+          include: true
+        - name: Compound SMILES
+          clientname: SMILES
+          include: true
+
+
+advanced:
+  well_to_images: true
+  ignore_missing_primary_key: true
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+        - Cell Line
+    - namespace: openmicroscopy.org/mapr/compound
+      keys:
+        - Compound Name
+        - Compound Name URL
