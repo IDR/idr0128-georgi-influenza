@@ -3,13 +3,13 @@ channels:
     1:
         active: true
         color: 0000FF
-        end: 15000.0
+        end: 12000.0
         label: DAPI
         start: 700.0
     2:
         active: true
         color: 00FF00
-        end: 25000.0
+        end: 18000.0
         label: FITC
         start: 500.0
 greyscale: false
