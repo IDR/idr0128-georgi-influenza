@@ -1,0 +1,430 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.												
+# STUDY DESCRIPTION SECTION																			
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details																																			
+Comment[IDR Study Accession]	idr128																	
+Study Title	Parallel compound screen for infection modulators identifies re-purposing candidates against common viral infections																		
+Study Type	high content screen	infection																		
+Study Type Term Source REF	EFO	EFO																		
+Study Type Term Accession	EFO_0007550	EFO_0000544																	
+Study Description	Viral infectious diseases span a myriad of maladies, including immunosuppression, cancer, organ failure and, if lacking effective treatment, even death. While numerous targeted antiviral therapies have been developed over the past century, many viral diseases still lack effective antivirals to date. Revisiting compounds approved for other applications offers accelerated development, and automated screening and data processing boost the feasibility of the re-purposing approach. Here, we extended our high-content image-based platform  on three human viruses differing in genome composition, envelope state, and tropism, namely human rhinovirus (RV), influenza A virus (IAV) and herpes simplex virus (HSV). Among the 1,280 mainly FDA-approved compounds, we identified potent inhibitors and even enhancers of multi-round infection propagation in vitro. The most potent inhibitors were 5-azacytidin against RV-A16, clotrimazole against IAV-WSN, and raltitrexed against HSV-1. Clobetasol was found to significantly enhance HSV-1 infection. Remarkably, Aminacrine, a topical antiseptic, inhibited all three viruses tested. Follow-up experiments of the highest-scoring modulators confirmed their performance. 																		
+Study Key Words	Influenza A virus	novel anti-virals	enhancers of infection																		
+Study Organism	Homo sapiens	Influenza A virus																		
+Study Organism Term Source REF	NCBITaxon	NCBITaxon																	
+Study Organism Term Accession	9606	11320																			
+Study Screens Number	5																		
+Study External URL	
+
+Study BioImage Archive Accession																		
+Study Public Release Date																		
+																			
+# Study Publication																			
+Study PubMed ID																			
+Study Publication Title	Parallel compound screen for infection modulators identifies re-purposing candidates against common viral infections																		
+Study Author List	Olszewski D, Georgi F, Murer L, Andriasyan V, Kuttler F, Witte R, Yakimovich A, Rozanova A, Yamauchi Y, Turcatti G, Greber UF																		
+Study PMC ID																			
+Study DOI																			
+																			
+# Study Contacts																			
+Study Person Last Name	Georgi																		
+Study Person First Name	Fanny																		
+Study Person Email	fanny.georgi@mnf.uzh.ch																		
+Study Person Address	University of Zurich, Department of Molecular Life Sciences, Winterthurerstrasse 190, 8057 Zurich, Switzerland																		
+Study Person ORCID	https://orcid.org/0000-0002-4803-5099																	
+Study Person Roles	co-author																		
+																			
+# Study License and Data DOI																			
+Study License	CC BY 4.0																		
+Study License URL	https://creativecommons.org/licenses/by/4.0/																
+Study Copyright	Olszewski et al																		
+Study Data Publisher	University of Dundee																			
+Study Data DOI																			
+																			
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi															
+Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/															
+																			
+																			
+# SCREEN SECTION																			
+# Screen Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. 							
+# For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.																			
+																			
+Screen Number	1																		
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenA	
+
+Screen Sample Type	cell																	
+Screen Description	Influenza A virus infected quality control plates consisting solely of the solvent control DMSO to confirm assay stability prior to Z' plates (preZ) and screen (preScreen).																		
+Screen Size	Plates: 2	5D Images: 1,536	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.0129														
+Screen Example Images	idr0128\1-prePlates\Data_UZH\preScreen\180419-6-52-IAV-pre_Plate_11939\180419-6-52-IAV-pre_w2.TIF																		
+Screen Imaging Method	fluorescence microscopy																		
+Screen Imaging Method Term Source REF	FBbi																		
+Screen Imaging Method Term Accession	FBbi_00000246																		
+Screen Technology Type	compound screen																		
+Screen Technology Type Term Source REF	EFO																			
+Screen Technology Type Term Accession	EFO_0007553																		
+Screen Type	high content screening stage																		
+Screen Type Term Source REF	EFO																		
+Screen Type Term Accession	EFO_0007555																		
+Screen Comments	Imaged and analyzed at UZH.	
+
+																			
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)														
+Library File Name	idr0128-screenA-annotation																		
+Library File Format	tab-delimited text																		
+Library Type	compound library																		
+Library Type Term Source REF	EFO																		
+Library Type Term Accession	EFO_0007569																			
+Library Manufacturer																			
+Library Version																			
+Library Experimental Conditions	All cells were cultured at 37°C, 5% CO2, 95% humidity.																		
+Library Experimental Conditions Term Source REF	EFO																		
+Library Experimental Conditions Term Accession																			
+Quality Control Description	Solvent control only.  These are the pre plates, on which assay stability with respect to cell and infection phenotype was tested prior to Z'plates and screening.
+
+
+
+# Protocols																			
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO														
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573														
+Protocol Description	A549 ATCC (CCL-185) were maintained in full medium: high glucose DMEM containing 7.5% FBS, 1% L-glutamine and 1% penicillin streptomycin and subcultured following PBS washing and trypsinisation  weekly. Cell cultures were grown at standard conditions (37°C, 5% CO2, 95% humidity) and passage number limited to 20.	The screening was performed in four independent biological replicates on 384-well plates. Wet-lab liquid handling was performed using a Matrix WellMate dispenser and Matrix WellMate tubing cartridges. Prior to usage, tubings were rinsed with 125 ml autoclaved ddH2O followed by 125 ml autoclaved PBS. Pre-spotted compound plates were thawed at room temperature for 30 min, briefly centrifuged before compounds were dissolved in 10 μl/ well PBS. 10,000 A549 cells/ well in 60 μl full medium were seeded onto the compounds using standard bore tubing cartridges. Following cell adhesion over night, the cells were inoculated with 25 PFU per well of IAV-H1N1 in 10 μl full media using small bore tubing cartridges. Final compound concentration was 1.25 μM at 0.0125% DMSO. Infection was allowed to progress over multiple infection rounds for 24 h, giving rise to foci of infected cells originating from a single first round infected cell termed plaque. Cells were fixed for 1 h at RT by addition of 26.6 μL 16% PFA and 4 μg/ml Hoechst 33342 in PBS using standard bore tubing cartridges. Cells were incubated with 50 μl of NH4Cl for 10 min at RT, followed by treatment with 0.25% Triton-X 100 in PBS for 5 min. After three washes with PBS, cells were blocked with 1% BSA for 30 min at RT. Staining with primary antibody HB-65 occurred in a dilution of 1:15 in PBS supplemented with 1% BSA in a volume of 30 μl per well for 1 h at 4 °C. Cells were washed three times with PBS and incubated with secondary antibody anti-mouse Alexa-Fluor 488 in a 1:1,000 dilution in PBS supplemented with 1% BSA and 4 μg/ml Hoechst 33342 in a volume of 30 μl for 1 h at RT. After three washes with PBS, 0.02% N3 in PBS was added to the cells for storage at 4 °C. 	The Prestwick Chemical Library was selected because it contains 1,280 commercially available off-patent FDA-approved small molecules from a variety of pharmaceutical classes. Identified anti-adenoviral hits are likely repurposable, since toxicity and bioavailability has been assessed in clinical trials.	Cells were fixed and nuclei stained with Hoechst. Infected wells were stained with primary mouse monoclonal anti-IAV NP antibody HB-65 (Y. Yamauchi, University of Bristol) and with secondary antibody anti-mouse Alexa-Fluor 488 (Thermo Fisher Scientific, Waltham, USA). Plates were epifluorescently imaged using an IXM-C (Molecular Devices) and an IN Cell 2200 (GE Healthcare). The infection phenotype for each well was quantified by Plaque2.0 (Yakimovich et al. 2015) via five read-outs: number of nuclei, number of infected nuclei, the ratio between infected and total nuclei referred to as infection index, number of multi-round infection foci termed plaques (plaque forming units, pfu) and the integrated viral transgenic GFP intensity. Plaque2.0 parameters were optimized independently for the data acquired at the respective institution. 	Hits were filtered for maximal antiviral effect (outside of 2 SD of negative control) and minimal toxicity (inside of 2 SD of negative control and additional non-infected assays). 	
+
+
+# Phenotypes																		
+Phenotype Name	nucleus	infected cell	plaque																
+Phenotype Description	Cell nuclei detected by Hoechst staining.	Cells expressing the IAV NP due to Influenza A virus protein expression following infection.	Foci of Influenza A virus-infected cells following productive infection.																
+Phenotype Score Type	automatic	automatic	automatic																
+Phenotype Term Source REF	CMPO	CMPO	CMPO																
+Phenotype Term Name	nucleus	nucleus	cell population phenotype·																
+Phenotype Term Accession	CMPO_0005634	CMPO_0005634	CMPO_0000002
+
+
+
+# Raw Data Files																			
+Raw Image Data Format	TIF																		
+Raw Image Organization	The data set contains 2 pre-plates, 2 Z' plates and 16 screening plates. All plates are 384-well plates, whose wells are imaged in two channels in one image, each.						
+																			
+# Feature Level Data Files																			
+Feature Level Data File Name																			
+Feature Level Data File Description																			
+Feature Level Data File Format																			
+Feature Level Data Column Name																		
+Feature Level Data Column Description	
+
+
+
+#  Processed Data Files 
+
+
+Processed Data File Name	idr0128-screenA-processed.txt																		
+Processed Data File Format	tab-delimited text																		
+Processed Data File Description	The table contains the Plaque2.0 infection scores of the pre plates.																		
+Processed Data Column Name	Plate	Well	Compound Name	Compound PubChem CID	maxNucleiIntensity	totalNucleiIntensity	meanNucleiIntensity	numberOfNuclei	maxVirusIntensity	totalVirusIntensity	meanVirusIntensity	medianVirusIntensity	numberOfPlaques	numberOfInfectedNuclei	lesionArea	infection index			
+Processed Data Column Type	plate	well	well	well	data	data	data	data	data	data	data	data	data	data	data	data			
+Processed Data Column Annotation Level					single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent			
+Processed Data Column Description	Plate identifier. Pre plates were performed prior t Z' plates (preZ) and screening (preScreen).	Well identifier.	Name of the small molecule.	PubChem identifier of the small molecule.	Highest intensity detected in the nuclei channel.	Total intensity of the nuclei channel.	Mean intensity detected in the nuclei channel.	Number of nuclei detected in the well.	Highest intensity detected in the virus channel.	Total intensity of the virus channel.	Mean intensity of the virus channel.	Median intensity of the virus channel.	Number of plaques detected in the well.	Number of infected nuclei detected in the well.	Total area lacking nuclei within the well.	Ratio between infected and total number of nuclei.			
+Processed Data Column Link To Library File	Plate	Well	Compound Name	Compound PubChem CID																		
+																			
+Screen Number	2																		
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenB
+
+Screen Sample Type	cell																		
+Screen Description	Influenza A virus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control BafA to confirm assay quality.																		
+Screen Size	Plates: 2	5D Images: 1,536	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.0129														
+Screen Example Images	idr0128\2-ZPLates\Data_UZH\Za\180320-6-45-IAV-Za_Plate_11765\180320-6-45-IAV-Za_A01_w2.TIF																		
+Screen Imaging Method	fluorescence microscopy																		
+Screen Imaging Method Term Source REF	FBbi																		
+Screen Imaging Method Term Accession	FBbi_00000246																		
+Screen Technology Type	compound screen																		
+Screen Technology Type Term Source REF	EFO																			
+Screen Technology Type Term Accession	EFO_0007553																		
+Screen Type	high content analysis of cells																		
+Screen Type Term Source REF	EFO																		
+Screen Type Term Accession	EFO_0005397																		
+Screen Comments	Imaged and analyzed at UZH.	
+
+
+
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate																				
+Library File Name	idr0128-screenB-library.txt																		
+Library File Format	tab-delimited text																		
+Library Type	compound library																			
+Library Type Term Source REF	EFO																		
+Library Type Term Accession	EFO_0007569																			
+Library Manufacturer																			
+Library Version																			
+Library Experimental Conditions	All cells were cultured at 37°C, 5% CO2, 95% humidity.																		
+Library Experimental Conditions Term Source REF	EFO																		
+Library Experimental Conditions Term Accession																			
+Quality Control Description	Positive control and solvent control only.  These are the Z' plates, on which assay quality was determined.		
+
+
+
+# Protocols																			
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO														
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573														
+Protocol Description	A549 ATCC (CCL-185) were maintained in full medium: high glucose DMEM containing 7.5% FBS, 1% L-glutamine and 1% penicillin streptomycin and subcultured following PBS washing and trypsinisation  weekly. Cell cultures were grown at standard conditions (37°C, 5% CO2, 95% humidity) and passage number limited to 20.	The screening was performed in four independent biological replicates on 384-well plates. Wet-lab liquid handling was performed using a Matrix WellMate dispenser and Matrix WellMate tubing cartridges. Prior to usage, tubings were rinsed with 125 ml autoclaved ddH2O followed by 125 ml autoclaved PBS. Pre-spotted compound plates were thawed at room temperature for 30 min, briefly centrifuged before compounds were dissolved in 10 μl/ well PBS. 10,000 A549 cells/ well in 60 μl full medium were seeded onto the compounds using standard bore tubing cartridges. Following cell adhesion over night, the cells were inoculated with 25 PFU per well of IAV-H1N1 in 10 μl full media using small bore tubing cartridges. Final compound concentration was 1.25 μM at 0.0125% DMSO. Infection was allowed to progress over multiple infection rounds for 24 h, giving rise to foci of infected cells originating from a single first round infected cell termed plaque. Cells were fixed for 1 h at RT by addition of 26.6 μL 16% PFA and 4 μg/ml Hoechst 33342 in PBS using standard bore tubing cartridges. Cells were incubated with 50 μl of NH4Cl for 10 min at RT, followed by treatment with 0.25% Triton-X 100 in PBS for 5 min. After three washes with PBS, cells were blocked with 1% BSA for 30 min at RT. Staining with primary antibody HB-65 occurred in a dilution of 1:15 in PBS supplemented with 1% BSA in a volume of 30 μl per well for 1 h at 4 °C. Cells were washed three times with PBS and incubated with secondary antibody anti-mouse Alexa-Fluor 488 in a 1:1,000 dilution in PBS supplemented with 1% BSA and 4 μg/ml Hoechst 33342 in a volume of 30 μl for 1 h at RT. After three washes with PBS, 0.02% N3 in PBS was added to the cells for storage at 4 °C. 	The Prestwick Chemical Library was selected because it contains 1,280 commercially available off-patent FDA-approved small molecules from a variety of pharmaceutical classes. Identified anti-adenoviral hits are likely repurposable, since toxicity and bioavailability has been assessed in clinical trials.	Cells were fixed and nuclei stained with Hoechst. Infected wells were stained with primary mouse monoclonal anti-IAV NP antibody HB-65 (Y. Yamauchi, University of Bristol) and with secondary antibody anti-mouse Alexa-Fluor 488 (Thermo Fisher Scientific, Waltham, USA). Plates were epifluorescently imaged using an IXM-C (Molecular Devices) and an IN Cell 2200 (GE Healthcare). The infection phenotype for each well was quantified by Plaque2.0 (Yakimovich et al. 2015) via five read-outs: number of nuclei, number of infected nuclei, the ratio between infected and total nuclei referred to as infection index, number of multi-round infection foci termed plaques (plaque forming units, pfu) and the integrated viral transgenic GFP intensity. Plaque2.0 parameters were optimized independently for the data acquired at the respective institution. 	Hits were filtered for maximal antiviral effect (outside of 2 SD of negative control) and minimal toxicity (inside of 2 SD of negative control and additional non-infected assays).																	
+																			
+# Phenotypes																		
+Phenotype Name	nucleus	infected cell	plaque																
+Phenotype Description	Cell nuclei detected by Hoechst staining.	Cells expressing the IAV NP due to Influenza A virus protein expression following infection.	Foci of Influenza A virus-infected cells following productive infection.																
+Phenotype Score Type	automatic	automatic	automatic																
+Phenotype Term Source REF	CMPO	CMPO	CMPO																
+Phenotype Term Name	nucleus	nucleus	cell population phenotype·																
+Phenotype Term Accession	CMPO_0005634	CMPO_0005634	CMPO_0000002																
+																			
+# Raw Data Files																			
+Raw Image Data Format	TIF																		
+Raw Image Organization	The data set contains 2 pre-plates, 2 Z' plates and 16 screening plates. All plates are 384-well plates, whose wells are imaged in two channels in one image, each.																		
+																			
+# Feature Level Data Files																			
+Feature Level Data File Name																			
+Feature Level Data File Description																			
+Feature Level Data File Format																			
+Feature Level Data Column Name																		
+Feature Level Data Column Description	
+	
+
+
+#  Processed Data Files	
+							
+Processed Data File Name	idr0128-screenB-processed.txt																		
+Processed Data File Format	tab-delimited text																		
+Processed Data File Description	The table contains the Plaque2.0 infection scores of the Z' plates imaged and analyzed by UZH.																		
+Processed Data Column Name	Plate	Comment [Plate Comments Replicate]	Well	Compound Name	Compound PubChem CID	maxNucleiIntensity	totalNucleiIntensity	meanNucleiIntensity	numberOfNuclei	maxVirusIntensity	totalVirusIntensity	meanVirusIntensity	medianVirusIntensity	numberOfPlaques	numberOfInfectedNuclei	lesionArea	infection index		
+Processed Data Column Type	plate	plate	well	well	well	data	data	data	data	data	data	data	data	data	data	data	data		
+Processed Data Column Annotation Level						single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent		
+Processed Data Column Description	Plate identifier.	Replicate identifier. Two biological replicates a and b were performed.	Well identifier.	Name of the small molecule.	PubChem identifier of the small molecule.	Highest intensity detected in the nuclei channel.	Total intensity of the nuclei channel.	Mean intensity detected in the nuclei channel.	Number of nuclei detected in the well.	Highest intensity detected in the virus channel.	Total intensity of the virus channel.	Mean intensity of the virus channel.	Median intensity of the virus channel.	Number of plaques detected in the well.	Number of infected nuclei detected in the well.	Total area lacking nuclei within the well.	Ratio between infected and total number of nuclei.		
+Processed Data Column Link To Library File	Plate	Comment [Plate Comments Replicate]	Well	Compound Name	Compound PubChem CID															
+				
+															
+Screen Number	3																		
+Comment[IDR Screen Name]	idr0128-georgi/screenC		
+
+Screen Sample Type	cell																
+Screen Description	Influenza A virus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control BafA to confirm assay quality.																		
+Screen Size	Plates: 2	5D Images: 1,536	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.0129														
+Screen Example Images	idr0128\2-ZPLates\Data_EPFL\Za\BSF019088\A - 1(fld 1 wv FITC - FITC).tif																		
+Screen Imaging Method	fluorescence microscopy																			
+Screen Imaging Method Term Source REF	FBbi																		
+Screen Imaging Method Term Accession	FBbi_00000246																		
+Screen Technology Type	compound screen																		
+Screen Technology Type Term Source REF	EFO																			
+Screen Technology Type Term Accession	EFO_0007553																		
+Screen Type	high content analysis of cells																		
+Screen Type Term Source REF	EFO																		
+Screen Type Term Accession	EFO_0005397																		
+Screen Comments	Imaged and analyzed at EPFL.		
+
+
+
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate	
+
+							
+Library File Name	idr0128-screenC-library.txt																		
+Library File Format	tab-delimited text																		
+Library Type	compound library																			
+Library Type Term Source REF	EFO																		
+Library Type Term Accession	EFO_0007569																			
+Library Manufacturer																			
+Library Version																			
+Library Experimental Conditions	All cells were cultured at 37°C, 5% CO2, 95% humidity.																		
+Library Experimental Conditions Term Source REF	EFO																		
+Library Experimental Conditions Term Accession																			
+Quality Control Description	Positive control and solvent control only.  These are the Z' plates, on which assay quality was determined.																				
+
+
+# Protocols																			
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO														
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573														
+Protocol Description	A549 ATCC (CCL-185) were maintained in full medium: high glucose DMEM containing 7.5% FBS, 1% L-glutamine and 1% penicillin streptomycin and subcultured following PBS washing and trypsinisation  weekly. Cell cultures were grown at standard conditions (37°C, 5% CO2, 95% humidity) and passage number limited to 20.	The screening was performed in four independent biological replicates on 384-well plates. Wet-lab liquid handling was performed using a Matrix WellMate dispenser and Matrix WellMate tubing cartridges. Prior to usage, tubings were rinsed with 125 ml autoclaved ddH2O followed by 125 ml autoclaved PBS. Pre-spotted compound plates were thawed at room temperature for 30 min, briefly centrifuged before compounds were dissolved in 10 μl/ well PBS. 10,000 A549 cells/ well in 60 μl full medium were seeded onto the compounds using standard bore tubing cartridges. Following cell adhesion over night, the cells were inoculated with 25 PFU per well of IAV-H1N1 in 10 μl full media using small bore tubing cartridges. Final compound concentration was 1.25 μM at 0.0125% DMSO. Infection was allowed to progress over multiple infection rounds for 24 h, giving rise to foci of infected cells originating from a single first round infected cell termed plaque. Cells were fixed for 1 h at RT by addition of 26.6 μL 16% PFA and 4 μg/ml Hoechst 33342 in PBS using standard bore tubing cartridges. Cells were incubated with 50 μl of NH4Cl for 10 min at RT, followed by treatment with 0.25% Triton-X 100 in PBS for 5 min. After three washes with PBS, cells were blocked with 1% BSA for 30 min at RT. Staining with primary antibody HB-65 occurred in a dilution of 1:15 in PBS supplemented with 1% BSA in a volume of 30 μl per well for 1 h at 4 °C. Cells were washed three times with PBS and incubated with secondary antibody anti-mouse Alexa-Fluor 488 in a 1:1,000 dilution in PBS supplemented with 1% BSA and 4 μg/ml Hoechst 33342 in a volume of 30 μl for 1 h at RT. After three washes with PBS, 0.02% N3 in PBS was added to the cells for storage at 4 °C. 	The Prestwick Chemical Library was selected because it contains 1,280 commercially available off-patent FDA-approved small molecules from a variety of pharmaceutical classes. Identified anti-adenoviral hits are likely repurposable, since toxicity and bioavailability has been assessed in clinical trials.	Cells were fixed and nuclei stained with Hoechst. Infected wells were stained with primary mouse monoclonal anti-IAV NP antibody HB-65 (Y. Yamauchi, University of Bristol) and with secondary antibody anti-mouse Alexa-Fluor 488 (Thermo Fisher Scientific, Waltham, USA). Plates were epifluorescently imaged using an IXM-C (Molecular Devices) and an IN Cell 2200 (GE Healthcare). The infection phenotype for each well was quantified by Plaque2.0 (Yakimovich et al. 2015) via five read-outs: number of nuclei, number of infected nuclei, the ratio between infected and total nuclei referred to as infection index, number of multi-round infection foci termed plaques (plaque forming units, pfu) and the integrated viral transgenic GFP intensity. Plaque2.0 parameters were optimized independently for the data acquired at the respective institution. 	Hits were filtered for maximal antiviral effect (outside of 2 SD of negative control) and minimal toxicity (inside of 2 SD of negative control and additional non-infected assays).															
+																			
+# Phenotypes																		
+Phenotype Name	nucleus	infected cell	plaque																
+Phenotype Description	Cell nuclei detected by Hoechst staining.	Cells expressing the IAV NP due to Influenza A virus protein expression following infection.	Foci of Influenza A virus-infected cells following productive infection.																
+Phenotype Score Type	automatic	automatic	automatic																
+Phenotype Term Source REF	CMPO	CMPO	CMPO																
+Phenotype Term Name	nucleus	nucleus	cell population phenotype·																
+Phenotype Term Accession	CMPO_0005634	CMPO_0005634	CMPO_0000002																
+																			
+# Raw Data Files																			
+Raw Image Data Format	TIF																		
+Raw Image Organization	The data set contains 2 pre-plates, 2 Z' plates and 16 screening plates. All plates are 384-well plates, whose wells are imaged in two channels in one image, each.																		
+																			
+# Feature Level Data Files																			
+Feature Level Data File Name																			
+Feature Level Data File Description																			
+Feature Level Data File Format																			
+Feature Level Data Column Name																		
+Feature Level Data Column Description
+		
+			
+
+#  Processed Data Files
+																			
+Processed Data File Name	idr0128-screenC-processed.txt																		
+Processed Data File Format	tab-delimited text																		
+Processed Data File Description	The table contains the Plaque2.0 infection scores of the Z' plates imaged and analyzed by UZH.																		
+Processed Data Column Name	Plate	Comment [Plate Comments Replicate]	Well	Compound Name	Compound PubChem CID	maxNucleiIntensity	totalNucleiIntensity	meanNucleiIntensity	numberOfNuclei	maxVirusIntensity	totalVirusIntensity	meanVirusIntensity	medianVirusIntensity	numberOfPlaques	numberOfInfectedNuclei	lesionArea	infection index		
+Processed Data Column Type	plate	plate	well	well	well	data	data	data	data	data	data	data	data	data	data	data	data		
+Processed Data Column Annotation Level						single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent		
+Processed Data Column Description	Plate identifier.	Replicate identifier. Two biological replicates a and b were performed.	Well identifier.	Name of the small molecule.	PubChem identifier of the small molecule.	Highest intensity detected in the nuclei channel.	Total intensity of the nuclei channel.	Mean intensity detected in the nuclei channel.	Number of nuclei detected in the well.	Highest intensity detected in the virus channel.	Total intensity of the virus channel.	Mean intensity of the virus channel.	Median intensity of the virus channel.	Number of plaques detected in the well.	Number of infected nuclei detected in the well.	Total area lacking nuclei within the well.	Ratio between infected and total number of nuclei.		
+Processed Data Column Link To Library File	Plate	Comment [Plate Comments Replicate]	Well	Compound Name	Compound PubChem CID												
+				
+																			
+Screen Number	4																		
+Comment[IDR Screen Name]	idr0128-georgi/screenD	
+
+Screen Sample Type	cell																	
+Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Influenza A virus infection.																		
+Screen Size	Plates: 16	5D Images: 12,288	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.1032														
+Screen Example Images	idr0128\3-Screen\Data_UZH\Screen\180426-6-53-IAV-1A_Plate_11962\180426-6-53-IAV-1A_A01_w2.TIF																		
+Screen Imaging Method	fluorescence microscopy																			
+Screen Imaging Method Term Source REF	FBbi																		
+Screen Imaging Method Term Accession	FBbi_00000246																		
+Screen Technology Type	compound screen																		
+Screen Technology Type Term Source REF	EFO																			
+Screen Technology Type Term Accession	EFO_0007553																		
+Screen Type	primary screen																		
+Screen Type Term Source REF	EFO																		
+Screen Type Term Accession	EFO_0007556																		
+Screen Comments	Imaged and analyzed at UZH.	
+
+
+
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate	
+
+
+Library File Name	idr0128-screenD-library.txt																		
+Library File Format	tab-delimited text																		
+Library Type	compound library																		
+Library Type Term Source REF	EFO																		
+Library Type Term Accession	EFO_0007569																		
+Library Manufacturer	Prestwick Chemical (Illkirch, France)																		
+Library Version	1																		
+Library Experimental Conditions	All cells were cultured at 37°C, 5% CO2, 95% humidity.																		
+Library Experimental Conditions Term Source REF	EFO																		
+Library Experimental Conditions Term Accession																			
+Quality Control Description	The wet-lab pipeline was optimized regarding liquid handling, cell seeding, virus inoculum, positive and negative control, time line, imaging and image analysis to ensure high assay stability and reproducibility. All compounds, especially media and supplements, the BSA for tubing saturation, PFA- and Hoechst-supplemented fixative were prepared as large batch from a single LOT and stored as single-use aliquots. Assay stability with respect to cell and infection phenotype was tested prior to Z'plates and screening on pre-plates. Assay quality was determined by 2 Z' plates. Z' plates and screening plates were imaged on different microscopes and analysed by two independent research teams.							
+
+
+
+
+# Protocols																			
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO														
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573														
+Protocol Description	A549 ATCC (CCL-185) were maintained in full medium: high glucose DMEM containing 7.5% FBS, 1% L-glutamine and 1% penicillin streptomycin and subcultured following PBS washing and trypsinisation  weekly. Cell cultures were grown at standard conditions (37°C, 5% CO2, 95% humidity) and passage number limited to 20.	The screening was performed in four independent biological replicates on 384-well plates. Wet-lab liquid handling was performed using a Matrix WellMate dispenser and Matrix WellMate tubing cartridges. Prior to usage, tubings were rinsed with 125 ml autoclaved ddH2O followed by 125 ml autoclaved PBS. Pre-spotted compound plates were thawed at room temperature for 30 min, briefly centrifuged before compounds were dissolved in 10 μl/ well PBS. 10,000 A549 cells/ well in 60 μl full medium were seeded onto the compounds using standard bore tubing cartridges. Following cell adhesion over night, the cells were inoculated with 25 PFU per well of IAV-H1N1 in 10 μl full media using small bore tubing cartridges. Final compound concentration was 1.25 μM at 0.0125% DMSO. Infection was allowed to progress over multiple infection rounds for 24 h, giving rise to foci of infected cells originating from a single first round infected cell termed plaque. Cells were fixed for 1 h at RT by addition of 26.6 μL 16% PFA and 4 μg/ml Hoechst 33342 in PBS using standard bore tubing cartridges. Cells were incubated with 50 μl of NH4Cl for 10 min at RT, followed by treatment with 0.25% Triton-X 100 in PBS for 5 min. After three washes with PBS, cells were blocked with 1% BSA for 30 min at RT. Staining with primary antibody HB-65 occurred in a dilution of 1:15 in PBS supplemented with 1% BSA in a volume of 30 μl per well for 1 h at 4 °C. Cells were washed three times with PBS and incubated with secondary antibody anti-mouse Alexa-Fluor 488 in a 1:1,000 dilution in PBS supplemented with 1% BSA and 4 μg/ml Hoechst 33342 in a volume of 30 μl for 1 h at RT. After three washes with PBS, 0.02% N3 in PBS was added to the cells for storage at 4 °C. 	The Prestwick Chemical Library was selected because it contains 1,280 commercially available off-patent FDA-approved small molecules from a variety of pharmaceutical classes. Identified anti-adenoviral hits are likely repurposable, since toxicity and bioavailability has been assessed in clinical trials.	Cells were fixed and nuclei stained with Hoechst. Infected wells were stained with primary mouse monoclonal anti-IAV NP antibody HB-65 (Y. Yamauchi, University of Bristol) and with secondary antibody anti-mouse Alexa-Fluor 488 (Thermo Fisher Scientific, Waltham, USA). Plates were epifluorescently imaged using an IXM-C (Molecular Devices) and an IN Cell 2200 (GE Healthcare). The infection phenotype for each well was quantified by Plaque2.0 (Yakimovich et al. 2015) via five read-outs: number of nuclei, number of infected nuclei, the ratio between infected and total nuclei referred to as infection index, number of multi-round infection foci termed plaques (plaque forming units, pfu) and the integrated viral transgenic GFP intensity. Plaque2.0 parameters were optimized independently for the data acquired at the respective institution. 	Hits were filtered for maximal antiviral effect (outside of 2 SD of negative control) and minimal toxicity (inside of 2 SD of negative control and additional non-infected assays).																	
+																			
+# Phenotypes																		
+Phenotype Name	nucleus	infected cell	plaque																
+Phenotype Description	Cell nuclei detected by Hoechst staining.	Cells expressing the IAV NP due to Influenza A virus protein expression following infection.	Foci of Influenza A virus-infected cells following productive infection.																
+Phenotype Score Type	automatic	automatic	automatic																
+Phenotype Term Source REF	CMPO	CMPO	CMPO																
+Phenotype Term Name	nucleus	nucleus	cell population phenotype·																
+Phenotype Term Accession	CMPO_0005634	CMPO_0005634	CMPO_0000002																
+																			
+# Raw Data Files																			
+Raw Image Data Format	TIF																		
+Raw Image Organization	The data set contains 2 pre-plates, 2 Z' plates and 16 screening plates. All plates are 384-well plates, whose wells are imaged in two channels in one image, each.																		
+																			
+# Feature Level Data Files																			
+Feature Level Data File Name																			
+Feature Level Data File Description																			
+Feature Level Data File Format																			
+Feature Level Data Column Name																		
+Feature Level Data Column Description	
+												
+
+
+
+#  Processed Data Files 									
+
+Processed Data File Name	idr0128-screenD-processed.txt																		
+Processed Data File Format	tab-delimited text																		
+Processed Data File Description	The table contains the Plaque2.0 infection scores of the Z' plates imaged and analyzed by EPFL.																		
+Processed Data Column Name	Plate	Comment [Plate Comment Replicate]	Comment [Plate Comment Subset]	Well	Prestwick Chemical Library ID	Compound Name	Compound PubChem CID	maxNucleiIntensity	totalNucleiIntensity	meanNucleiIntensity	numberOfNuclei	maxVirusIntensity	totalVirusIntensity	meanVirusIntensity	medianVirusIntensity	numberOfPlaques	numberOfInfectedNuclei	lesionArea	infectionIndex
+Processed Data Column Type	plate	plate	plate	well	well	well	well	data	data	data	data	data	data	data	data	data	data	data	data
+Processed Data Column Annotation Level								single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent
+Processed Data Column Description	Plate identifier.	Replicate identifier. 4 biological replicates 1 to 4 were performed.	Subset identifier. Each biological replicate consits of a set of four plates A to D.	Well identifier.	identifier withing the Prestwick Chemical Library of the small molecule.	Name of the small molecule.	PubChem identifier of the small molecule.	Highest intensity detected in the nuclei channel.	Total intensity of the nuclei channel.	Mean intensity detected in the nuclei channel.	Number of nuclei detected in the well.	Highest intensity detected in the virus channel.	Total intensity of the virus channel.	Mean intensity of the virus channel.	Median intensity of the virus channel.	Number of plaques detected in the well.	Number of infected nuclei detected in the well.	Total area lacking nuclei within the well.	Ratio between infected and total number of nuclei.
+Processed Data Column Link To Library File	Plate	Comment [Plate Comment Replicate]	Comment [Plate Comment Subset]	Well	Prestwick Chemical Library ID	Compound Name	Compound PubChem CID												
+
+	
+																			
+Screen Number	5																		
+Comment[IDR Screen Name]	idr0128-georgi/screenE	
+
+Screen Sample Type	cell																	
+Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Influenza A virus infection.																		
+Screen Size	Plates: 16	5D Images: 12,288	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.1031														
+Screen Example Images	idr0128\3-Screen\Data_EPFL\Screen\BSF019243\A - 01(fld 1 wv FITC - FITC).tif																		
+Screen Imaging Method	fluorescence microscopy																			
+Screen Imaging Method Term Source REF	FBbi																		
+Screen Imaging Method Term Accession	FBbi_00000246																		
+Screen Technology Type	compound screen																		
+Screen Technology Type Term Source REF	EFO																			
+Screen Technology Type Term Accession	EFO_0007553																			
+Screen Type	primary screen																		
+Screen Type Term Source REF	EFO																		
+Screen Type Term Accession	EFO_0007556																		
+Screen Comments	Imaged and analyzed at EPFL.	
+
+
+
+
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)																										
+Library File Name	idr0128-screenE-library.xlsx																		
+Library File Format	tab-delimited text																		
+Library Type	compound library																		
+Library Type Term Source REF	EFO																		
+Library Type Term Accession	EFO_0007569																		
+Library Manufacturer	Prestwick Chemical (Illkirch, France)																		
+Library Version	1																		
+Library Experimental Conditions	All cells were cultured at 37°C, 5% CO2, 95% humidity.																		
+Library Experimental Conditions Term Source REF	EFO																		
+Library Experimental Conditions Term Accession																			
+Quality Control Description	The wet-lab pipeline was optimized regarding liquid handling, cell seeding, virus inoculum, positive and negative control, time line, imaging and image analysis to ensure high assay stability and reproducibility. All compounds, especially media and supplements, the BSA for tubing saturation, PFA- and Hoechst-supplemented fixative were prepared as large batch from a single LOT and stored as single-use aliquots. Assay stability with respect to cell and infection phenotype was tested prior to Z'plates and screening on pre-plates. Assay quality was determined by 2 Z' plates. Z' plates and screening plates were imaged on different microscopes and analysed by two independent research teams.											
+			
+																			
+# Protocols																			
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol														
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO														
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573														
+Protocol Description	A549 ATCC (CCL-185) were maintained in full medium: high glucose DMEM containing 7.5% FBS, 1% L-glutamine and 1% penicillin streptomycin and subcultured following PBS washing and trypsinisation  weekly. Cell cultures were grown at standard conditions (37°C, 5% CO2, 95% humidity) and passage number limited to 20.	The screening was performed in four independent biological replicates on 384-well plates. Wet-lab liquid handling was performed using a Matrix WellMate dispenser and Matrix WellMate tubing cartridges. Prior to usage, tubings were rinsed with 125 ml autoclaved ddH2O followed by 125 ml autoclaved PBS. Pre-spotted compound plates were thawed at room temperature for 30 min, briefly centrifuged before compounds were dissolved in 10 μl/ well PBS. 10,000 A549 cells/ well in 60 μl full medium were seeded onto the compounds using standard bore tubing cartridges. Following cell adhesion over night, the cells were inoculated with 25 PFU per well of IAV-H1N1 in 10 μl full media using small bore tubing cartridges. Final compound concentration was 1.25 μM at 0.0125% DMSO. Infection was allowed to progress over multiple infection rounds for 24 h, giving rise to foci of infected cells originating from a single first round infected cell termed plaque. Cells were fixed for 1 h at RT by addition of 26.6 μL 16% PFA and 4 μg/ml Hoechst 33342 in PBS using standard bore tubing cartridges. Cells were incubated with 50 μl of NH4Cl for 10 min at RT, followed by treatment with 0.25% Triton-X 100 in PBS for 5 min. After three washes with PBS, cells were blocked with 1% BSA for 30 min at RT. Staining with primary antibody HB-65 occurred in a dilution of 1:15 in PBS supplemented with 1% BSA in a volume of 30 μl per well for 1 h at 4 °C. Cells were washed three times with PBS and incubated with secondary antibody anti-mouse Alexa-Fluor 488 in a 1:1,000 dilution in PBS supplemented with 1% BSA and 4 μg/ml Hoechst 33342 in a volume of 30 μl for 1 h at RT. After three washes with PBS, 0.02% N3 in PBS was added to the cells for storage at 4 °C. 	The Prestwick Chemical Library was selected because it contains 1,280 commercially available off-patent FDA-approved small molecules from a variety of pharmaceutical classes. Identified anti-adenoviral hits are likely repurposable, since toxicity and bioavailability has been assessed in clinical trials.	Cells were fixed and nuclei stained with Hoechst. Infected wells were stained with primary mouse monoclonal anti-IAV NP antibody HB-65 (Y. Yamauchi, University of Bristol) and with secondary antibody anti-mouse Alexa-Fluor 488 (Thermo Fisher Scientific, Waltham, USA). Plates were epifluorescently imaged using an IXM-C (Molecular Devices) and an IN Cell 2200 (GE Healthcare). The infection phenotype for each well was quantified by Plaque2.0 (Yakimovich et al. 2015) via five read-outs: number of nuclei, number of infected nuclei, the ratio between infected and total nuclei referred to as infection index, number of multi-round infection foci termed plaques (plaque forming units, pfu) and the integrated viral transgenic GFP intensity. Plaque2.0 parameters were optimized independently for the data acquired at the respective institution. 	Hits were filtered for maximal antiviral effect (outside of 2 SD of negative control) and minimal toxicity (inside of 2 SD of negative control and additional non-infected assays).														
+							
+																			
+# Phenotypes																		
+Phenotype Name	nucleus	infected cell	plaque																
+Phenotype Description	Cell nuclei detected by Hoechst staining.	Cells expressing the IAV NP due to Influenza A virus protein expression following infection.	Foci of Influenza A virus-infected cells following productive infection.																
+Phenotype Score Type	automatic	automatic	automatic																
+Phenotype Term Source REF	CMPO	CMPO	CMPO																
+Phenotype Term Name	nucleus	nucleus	cell population phenotype·																
+Phenotype Term Accession	CMPO_0005634	CMPO_0005634	CMPO_0000002																
+																			
+# Raw Data Files																			
+Raw Image Data Format	TIF																		
+Raw Image Organization	The data set contains 2 pre-plates, 2 Z' plates and 16 screening plates. All plates are 384-well plates, whose wells are imaged in two channels in one image, each.																		
+																			
+# Feature Level Data Files																			
+Feature Level Data File Name																			
+Feature Level Data File Description																			
+Feature Level Data File Format																			
+Feature Level Data Column Name																		
+Feature Level Data Column Description																			
+		
+																	
+#  Processed Data Files 
+																			
+Processed Data File Name	idr0128-screenE-processed.txt																		
+Processed Data File Format	tab-delimited text																		
+Processed Data File Description	The table contains the Plaque2.0 infection scores of the Z' plates imaged and analyzed by EPFL.																		
+Processed Data Column Name	Plate	Comment [Plate Comment Replicate]	Comment [Plate Comment Subset]	Well	Prestwick Chemical Library ID	Compound Name	Compound PubChem CID	maxNucleiIntensity	totalNucleiIntensity	meanNucleiIntensity	numberOfNuclei	maxVirusIntensity	totalVirusIntensity	meanVirusIntensity	medianVirusIntensity	numberOfPlaques	numberOfInfectedNuclei	lesionArea	infectionIndex
+Processed Data Column Type	plate	plate	plate	well	well	well	well	data	data	data	data	data	data	data	data	data	data	data	data
+Processed Data Column Annotation Level								single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent	single replicate of reagent
+Processed Data Column Description	Plate identifier.	Replicate identifier. 4 biological replicates 1 to 4 were performed.	Subset identifier. Each biological replicate consits of a set of four plates A to D.	Well identifier.	identifier withing the Prestwick Chemical Library of the small molecule.	Name of the small molecule.	PubChem identifier of the small molecule.	Highest intensity detected in the nuclei channel.	Total intensity of the nuclei channel.	Mean intensity detected in the nuclei channel.	Number of nuclei detected in the well.	Highest intensity detected in the virus channel.	Total intensity of the virus channel.	Mean intensity of the virus channel.	Median intensity of the virus channel.	Number of plaques detected in the well.	Number of infected nuclei detected in the well.	Total area lacking nuclei within the well.	Ratio between infected and total number of nuclei.
+Processed Data Column Link To Library File	Plate	Comment [Plate Comment Replicate]	Comment [Plate Comment Subset]	Well	Prestwick Chemical Library ID	Compound Name	Compound PubChem CID												
