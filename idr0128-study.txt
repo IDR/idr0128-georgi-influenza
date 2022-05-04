@@ -1,7 +1,7 @@
 # FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.												
 # STUDY DESCRIPTION SECTION																			
 # Section with generic information about the study including title, description, publication details (if applicable) and contact details																																			
-Comment[IDR Study Accession]	idr128																	
+Comment[IDR Study Accession]	idr0128																	
 Study Title	Parallel compound screen for infection modulators identifies re-purposing candidates against common viral infections																		
 Study Type	high content screen	infection																		
 Study Type Term Source REF	EFO	EFO																		
