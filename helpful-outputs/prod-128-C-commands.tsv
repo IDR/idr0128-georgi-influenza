@@ -1,0 +1,2 @@
+python /uod/idr/metadata/idr-utils/scripts/annotate/attach_file.py Influenza-20220113-Globus/IAV/2-ZPlates/Data_EPFL/Results/BSF019089_ImageData.csv Plate:9734
+python /uod/idr/metadata/idr-utils/scripts/annotate/attach_file.py Influenza-20220113-Globus/IAV/2-ZPlates/Data_EPFL/Results/BSF019088_ImageData.csv Plate:9733
