@@ -200,7 +200,7 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Comments Replica
 				
 															
 Screen Number	3																		
-Comment[IDR Screen Name]	idr0128-georgi/screenC		
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenC		
 
 Screen Sample Type	cell																
 Screen Description	Influenza A virus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control BafA to confirm assay quality.																		
@@ -276,7 +276,7 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Comments Replica
 				
 																			
 Screen Number	4																		
-Comment[IDR Screen Name]	idr0128-georgi/screenD	
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenD	
 
 Screen Sample Type	cell																	
 Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Influenza A virus infection.																		
@@ -356,7 +356,7 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Comment Replicat
 	
 																			
 Screen Number	5																		
-Comment[IDR Screen Name]	idr0128-georgi/screenE	
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenE	
 
 Screen Sample Type	cell																	
 Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Influenza A virus infection.																		
