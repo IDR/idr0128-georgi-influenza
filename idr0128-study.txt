@@ -22,7 +22,7 @@ Study PubMed ID
 Study Publication Title	Parallel compound screen for infection modulators identifies re-purposing candidates against common viral infections																		
 Study Author List	Olszewski D, Georgi F, Murer L, Andriasyan V, Kuttler F, Witte R, Yakimovich A, Rozanova A, Yamauchi Y, Turcatti G, Greber UF																		
 Study PMC ID																			
-Study DOI																			
+Study DOI																
 																			
 # Study Contacts																			
 Study Person Last Name	Georgi																		
@@ -37,7 +37,7 @@ Study License	CC BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/																
 Study Copyright	Olszewski et al																		
 Study Data Publisher	University of Dundee																			
-Study Data DOI																			
+Study Data DOI	https://doi.org/10.17867/10000179																
 																			
 Term Source Name	NCBITaxon	EFO	CMPO	Fbbi															
 Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/															
@@ -48,7 +48,9 @@ Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:
 # For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.																			
 																			
 Screen Number	1																		
-Comment[IDR Screen Name]	idr0128-georgi-influenza/screenA	
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenA
+
+Screen Data DOI	https://doi.org/10.17867/10000179a	
 
 Screen Sample Type	cell																	
 Screen Description	Influenza A virus infected quality control plates consisting solely of the solvent control DMSO to confirm assay stability prior to Z' plates (preZ) and screen (preScreen).																		
@@ -127,6 +129,8 @@ Processed Data Column Link To Library File	Plate	Well	Compound Name	Compound Pub
 Screen Number	2																		
 Comment[IDR Screen Name]	idr0128-georgi-influenza/screenB
 
+Screen Data DOI	https://doi.org/10.17867/10000179b
+
 Screen Sample Type	cell																		
 Screen Description	Influenza A virus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control BafA to confirm assay quality.																		
 Screen Size	Plates: 2	5D Images: 1,536	Planes: 1	Average Image Dimension (XYZCT): 2048x2048x1x2x1	Total Tb: 0.0129														
@@ -200,7 +204,9 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Comments Replica
 				
 															
 Screen Number	3																		
-Comment[IDR Screen Name]	idr0128-georgi-influenza/screenC		
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenC	
+
+Screen Data DOI	https://doi.org/10.17867/10000179c	
 
 Screen Sample Type	cell																
 Screen Description	Influenza A virus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control BafA to confirm assay quality.																		
@@ -277,6 +283,8 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Comments Replica
 																			
 Screen Number	4																		
 Comment[IDR Screen Name]	idr0128-georgi-influenza/screenD	
+
+Screen Data DOI	https://doi.org/10.17867/10000179d
 
 Screen Sample Type	cell																	
 Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Influenza A virus infection.																		
@@ -356,7 +364,9 @@ Processed Data Column Link To Library File	Plate	Comment [Plate Comment Replicat
 	
 																			
 Screen Number	5																		
-Comment[IDR Screen Name]	idr0128-georgi-influenza/screenE	
+Comment[IDR Screen Name]	idr0128-georgi-influenza/screenE
+
+Screen Data DOI	https://doi.org/10.17867/10000179e
 
 Screen Sample Type	cell																	
 Screen Description	Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of Influenza A virus infection.																		
